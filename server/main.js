@@ -1,5 +1,5 @@
-import { Meteor } from 'meteor/meteor';
+// import { Meteor } from "meteor/meteor";
 
-Meteor.startup(() => {
-  console.log('Hello World!!!!!!!!!!!!!!');
-});
+import '../imports/configdb/mongodb'
+import '../imports/api/weather/weather' ;
+
